@@ -1,4 +1,4 @@
-class socli < Formula
+class Socli < Formula
   include Language::Python::Virtualenv
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal"
