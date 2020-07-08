@@ -3,8 +3,8 @@ class socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal"
   homepage "https://github.com/gautamkrishnar/socli"
-  url "https://github.com/gautamkrishnar/socli/archive/4.6-beta.tar.gz"
-  sha256 "a7cce9f945b255840a0d27208fcdb9832ced3411b5eb86520529cb168873cc69"
+  url "https://github.com/gautamkrishnar/socli/archive/4.6.tar.gz"
+  sha256 "ae049d776c8845385a295b06ec90e2d323d755e983bb1005e7fce9ecc8aada8d"
   head "https://github.com/gautamkrishnar/socli.git"
 
   # TODO: If you're submitting an existing package, make sure you include your
