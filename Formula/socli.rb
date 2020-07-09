@@ -64,10 +64,14 @@ class Socli < Formula
   end
 
   def install
-    virtualenv_create(libexec, "python3")
-    virtualenv_install_with_resources
+    venv = virtualenv_create(libexec, "python3")
+    if OS.mac?
+      virtualenv_install_with_resources
+    else
+      venv.pip_install resources
+      venv.pip_install_and_link buildpath
+    end
   end
-
   test do
     false
   end
