@@ -3,8 +3,8 @@ class Socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal."
   homepage "https://www.github.com/gautamkrishnar/socli"
-  url "https://files.pythonhosted.org/packages/e4/a4/b59aa99602195f406332fa0ca0a402906597e6093a4847c195fb5c6fc799/socli-5.3.tar.gz"
-  sha256 "4f59016cf2c98afb2e584b6e842fbcc80075543bb29cdebd8d5bf30866e02e0c"
+  url "https://files.pythonhosted.org/packages/1d/ae/3429637bda154babd63bf79628cfa26c829adad81bdf4b6b8e34807d9dec/socli-5.4.tar.gz"
+  sha256 "b0a44e7afc3985b1c4159d66d54f3da0efa22edbd29163b7463da1f10a433dfe"
 
   depends_on "python3"
 
