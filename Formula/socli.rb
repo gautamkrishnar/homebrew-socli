@@ -3,14 +3,14 @@ class Socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal."
   homepage "https://www.github.com/gautamkrishnar/socli"
-  url "https://files.pythonhosted.org/packages/75/2d/617a04c8c998f34a482f4d07fc398c679ec0c05a516fc522671559c36bb1/socli-5.7.tar.gz"
-  sha256 "3be4d710ca6a921d8eb34bad6093f2705d88146a53a9b04cbb26e06afc803938"
+  url "https://files.pythonhosted.org/packages/60/d2/4d59756cb04d896c7f67987e9e6bd80e50e267b61ccae72a5925e502e11c/socli-5.8.tar.gz"
+  sha256 "4c9b13fbb7380171fb86f985307693dc89683434ba4b3b94e8e4cc95d6423ef3"
 
   depends_on "python3"
 
   resource "beautifulsoup4" do
-    url "https://files.pythonhosted.org/packages/c6/62/8a2bef01214eeaa5a4489eca7104e152968729512ee33cb5fbbc37a896b7/beautifulsoup4-4.9.1.tar.gz"
-    sha256 "73cc4d115b96f79c7d77c1c7f7a0a8d4c57860d1041df407dd1aae7f07a77fd7"
+    url "https://files.pythonhosted.org/packages/6b/c3/d31704ae558dcca862e4ee8e8388f357af6c9d9acb0cad4ba0fbbd350d9a/beautifulsoup4-4.9.3.tar.gz"
+    sha256 "84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25"
   end
 
   resource "certifi" do
@@ -43,6 +43,11 @@ class Socli < Formula
     sha256 "b3559a131db72c33ee969480840fff4bb6dd111de7dd27c8ee1f820f4f00231b"
   end
 
+  resource "sentry-sdk" do
+    url "https://files.pythonhosted.org/packages/07/43/a3e5186e9262fc7edfb83a376ba7647b5a776047b5302124130869a7f5a6/sentry-sdk-0.18.0.tar.gz"
+    sha256 "1d91a0059d2d8bb980bec169578035c2f2d4b93cd8a4fb5b85c81904d33e221a"
+  end
+
   resource "six" do
     url "https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz"
     sha256 "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
@@ -59,8 +64,8 @@ class Socli < Formula
   end
 
   resource "urwid" do
-    url "https://files.pythonhosted.org/packages/c0/b0/e4e8597cf93411cc85a70766227c8a113b153b7022699a080d22fac28a00/urwid-2.1.1.tar.gz"
-    sha256 "7870866e35b00b71b0c9ccdd1281c8e7fac3806d60b9c1075c95dd5dad88d526"
+    url "https://files.pythonhosted.org/packages/94/3f/e3010f4a11c08a5690540f7ebd0b0d251cc8a456895b7e49be201f73540c/urwid-2.1.2.tar.gz"
+    sha256 "588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae"
   end
 
   def install
