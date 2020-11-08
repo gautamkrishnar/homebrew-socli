@@ -3,8 +3,8 @@ class Socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal."
   homepage "https://www.github.com/gautamkrishnar/socli"
-  url "https://files.pythonhosted.org/packages/60/d2/4d59756cb04d896c7f67987e9e6bd80e50e267b61ccae72a5925e502e11c/socli-5.8.tar.gz"
-  sha256 "4c9b13fbb7380171fb86f985307693dc89683434ba4b3b94e8e4cc95d6423ef3"
+  url "https://files.pythonhosted.org/packages/7b/01/465dd064c500b11596700c766174d9769b3be407b51a3d501c55f6720af0/socli-5.9.tar.gz"
+  sha256 "2abc39330ec6cf191f5fa937cd770a6c3fa54fd5affe41a0bf0315952fa16743"
 
   depends_on "python3"
 
@@ -24,8 +24,8 @@ class Socli < Formula
   end
 
   resource "colorama" do
-    url "https://files.pythonhosted.org/packages/82/75/f2a4c0c94c85e2693c229142eb448840fba0f9230111faa889d1f541d12d/colorama-0.4.3.tar.gz"
-    sha256 "e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"
+    url "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
+    sha256 "5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"
   end
 
   resource "idna" do
@@ -44,8 +44,8 @@ class Socli < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/07/43/a3e5186e9262fc7edfb83a376ba7647b5a776047b5302124130869a7f5a6/sentry-sdk-0.18.0.tar.gz"
-    sha256 "1d91a0059d2d8bb980bec169578035c2f2d4b93cd8a4fb5b85c81904d33e221a"
+    url "https://files.pythonhosted.org/packages/22/b4/7c9688a24f0dfc7f985066972e9a254685a70bbce9099b2263b03e5681f2/sentry-sdk-0.19.2.tar.gz"
+    sha256 "17b725df2258354ccb39618ae4ead29651aa92c01a92acf72f98efe06ee2e45a"
   end
 
   resource "six" do
@@ -59,8 +59,8 @@ class Socli < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
-    sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
+    url "https://files.pythonhosted.org/packages/76/d9/bbbafc76b18da706451fa91bc2ebe21c0daf8868ef3c30b869ac7cb7f01d/urllib3-1.25.11.tar.gz"
+    sha256 "8d7eaa5a82a1cac232164990f04874c594c9453ec55eef02eab885aa02fc17a2"
   end
 
   resource "urwid" do
