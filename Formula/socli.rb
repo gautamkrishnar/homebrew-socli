@@ -44,8 +44,8 @@ class Socli < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/22/b4/7c9688a24f0dfc7f985066972e9a254685a70bbce9099b2263b03e5681f2/sentry-sdk-0.19.2.tar.gz"
-    sha256 "17b725df2258354ccb39618ae4ead29651aa92c01a92acf72f98efe06ee2e45a"
+    url "https://files.pythonhosted.org/packages/f4/02/04c32ee4f98b6cc46cad1daf22c65571ee87f35c272052abf4043c1a8a28/sentry-sdk-0.19.4.tar.gz"
+    sha256 "1052f0ed084e532f66cb3e4ba617960d820152aee8b93fc6c05bd53861768c1c"
   end
 
   resource "six" do
