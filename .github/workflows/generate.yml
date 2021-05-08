@@ -10,4 +10,4 @@ jobs:
         with:
           python-version: 3.8
       - name: Fetch latest release and regenerate formula
-        run: bash generate-brew-formula.sh
+        run: bash publish-brew-formula.sh
