@@ -5,6 +5,15 @@ get_latest_release() {
     sed -E 's/.*"([^"]+)".*/\1/'                                    # Pluck JSON value
 }
 
+# Code to wait till the latest package is available in pypi, if available do install
+install_socli_latest() {
+  until pip install --upgrade --force-reinstall --no-cache socli=="${PUBLISHED_VERSION}" && [[ "$(socli --version | awk '{print $2}')" == "${PUBLISHED_VERSION}" ]] && true || false
+  do
+    echo "Retrying again in 10 seconds..."
+    sleep 10
+  done
+}
+
 # Generate formula
 set -e
 export PUBLISHED_VERSION=$(get_latest_release "gautamkrishnar/socli")
@@ -12,15 +21,14 @@ export PUBLISHED_VERSION=$(get_latest_release "gautamkrishnar/socli")
 pip install homebrew-pypi-poet==0.10.0 requests==2.24.0
 echo Doing pip install  --upgrade --no-cache socli="${PUBLISHED_VERSION}"
 
-# Code to wait till the latest package is available in pypi, if available do install
-until pip install --upgrade --no-cache socli=="${PUBLISHED_VERSION}" && [[ "$(socli --version | awk '{print $2}')" == "${PUBLISHED_VERSION}" ]] && true || false
+# this loop is to fix some pypi bugs
+until  cat socli.rb | grep "${PUBLISHED_VERSION}".tar.gz
 do
-  echo "Retrying again in 10 seconds..."
+  install_socli_latest
+  echo generating formula
+  poet -f socli > socli.rb
   sleep 10
 done
-
-# Generate formula
-poet -f socli > socli.rb
 
 # Replacing with required values for linux
 cat << EOF | python
