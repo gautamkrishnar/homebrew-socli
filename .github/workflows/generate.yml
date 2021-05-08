@@ -1,8 +1,6 @@
 name: Generate the latest brew formula
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: [socli-released]
 jobs:
   generate:
     runs-on: ubuntu-latest
