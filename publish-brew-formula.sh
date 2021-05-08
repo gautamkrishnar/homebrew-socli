@@ -65,7 +65,6 @@ git config --global user.name "gkr-bot"
 
 echo "Replacing formula..."
 mv -fv socli.rb Formula/socli.rb
-cd brewroot
 git add Formula/socli.rb || true
 echo "Committing formula..."
 git commit -m "Published ${PUBLISHED_VERSION}" || true
