@@ -3,8 +3,8 @@ class Socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal."
   homepage "https://www.github.com/gautamkrishnar/socli"
-  url "https://files.pythonhosted.org/packages/ce/86/33863d1dcaf55acb8fcf8065563839c0793b4e383bb286424c14fb26145c/socli-6.9.tar.gz"
-  sha256 "aecd2c4dd84ec6074245eef1978a2e0874824219e4cd36a1cf96bf482982231b"
+  url "https://files.pythonhosted.org/packages/a0/83/2d398faebac73ffd4408161c5455cc356e137d767b850c40a2ac7bde6b43/socli-7.0.tar.gz"
+  sha256 "071b8be9c8d1e4c9242d414659692a36dedd4819d5942d93638fd28b0c0e5c2d"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class Socli < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/06/a9/cd1fd8ee13f73a4d4f491ee219deeeae20afefa914dfb4c130cfc9dc397a/certifi-2020.12.5.tar.gz"
-    sha256 "1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"
+    url "https://files.pythonhosted.org/packages/6d/78/f8db8d57f520a54f0b8a438319c342c61c22759d8f9a1cd2e2180b5e5ea9/certifi-2021.5.30.tar.gz"
+    sha256 "2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee"
   end
 
   resource "chardet" do
@@ -64,8 +64,8 @@ class Socli < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/cb/cf/871177f1fc795c6c10787bc0e1f27bb6cf7b81dbde399fd35860472cecbc/urllib3-1.26.4.tar.gz"
-    sha256 "e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+    url "https://files.pythonhosted.org/packages/94/40/c396b5b212533716949a4d295f91a4c100d51ba95ea9e2d96b6b0517e5a5/urllib3-1.26.5.tar.gz"
+    sha256 "a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098"
   end
 
   resource "urwid" do
