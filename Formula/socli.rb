@@ -3,8 +3,8 @@ class Socli < Formula
 
   desc "Stack overflow command line client. Search and browse stack overflow without leaving the terminal."
   homepage "https://www.github.com/gautamkrishnar/socli"
-  url "https://files.pythonhosted.org/packages/a0/83/2d398faebac73ffd4408161c5455cc356e137d767b850c40a2ac7bde6b43/socli-7.0.tar.gz"
-  sha256 "071b8be9c8d1e4c9242d414659692a36dedd4819d5942d93638fd28b0c0e5c2d"
+  url "https://files.pythonhosted.org/packages/e3/5c/9296efe55054d3fa9247c1e8d6515da6ae13ca00fcae51daae869770f623/socli-7.1.tar.gz"
+  sha256 "b1a64d49db4e13849d6dec8ed9488ffd51b6aadcf0b63b1cb38de757db05ceff"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Socli < Formula
   end
 
   resource "beautifulsoup4" do
-    url "https://files.pythonhosted.org/packages/6b/c3/d31704ae558dcca862e4ee8e8388f357af6c9d9acb0cad4ba0fbbd350d9a/beautifulsoup4-4.9.3.tar.gz"
-    sha256 "84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25"
+    url "https://files.pythonhosted.org/packages/a1/69/daeee6d8f22c997e522cdbeb59641c4d31ab120aba0f2c799500f7456b7e/beautifulsoup4-4.10.0.tar.gz"
+    sha256 "c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891"
   end
 
   resource "certifi" do
@@ -24,8 +24,8 @@ class Socli < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/4e/2af0238001648ded297fb54ceb425ca26faa15b341b4fac5371d3938666e/charset-normalizer-2.0.4.tar.gz"
-    sha256 "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"
+    url "https://files.pythonhosted.org/packages/eb/7f/a6c278746ddbd7094b019b08d1b2187101b1f596f35f81dc27f57d8fcf7c/charset-normalizer-2.0.6.tar.gz"
+    sha256 "5ec46d183433dcbd0ab716f2d7f29d8dee50505b3fdb40c6b985c7c4f5a3591f"
   end
 
   resource "colorama" do
